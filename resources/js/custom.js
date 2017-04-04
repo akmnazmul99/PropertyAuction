@@ -1,4 +1,3 @@
-$(document).ready(function(){
-	$('#nav').slicknav();
-	$('#responsive-video').fitVids();
+$(function() {
+    $("#header-section").load("template/section/header.html");
 });

@@ -3,3 +3,102 @@ Theme Name: Property Auction
 Athour: A.LK.M. Nazmul Islam
 Version: 1.0
 */
+
+/* ---------------------------- Header -------------------------------- */
+.header-bg{
+    background-color: #ffffff; 
+    border-bottom: 1px solid #005480; 
+    margin: -8px;
+}
+.navbar-custom{
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0;
+}
+.logo-img-custom{
+    height: 32px;
+    padding: 5px 2px;
+    margin-top: 12px;
+}
+.menu-items{
+    padding: 0; 
+    margin: 0; 
+    list-style-type: none;
+}
+.menu-items > li{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+/*.menu-items > li > a{
+    color: #76767c;
+    font-size: 14px;
+    padding: 15px 10px;
+    margin-bottom: 5px;
+}*/
+.menu-items > li > a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #005480;
+    color: #ffffff;
+}
+/*.menu-item:before {
+    content:"";
+    position: absolute;
+    right: 11px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #fae0bb transparent;
+    z-index:9999;
+}
+.menu-item:after {
+    content:"";
+    position: absolute;
+    right: 4px;
+    top: -22px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 17px 17px 17px;
+    border-color: transparent transparent #ffffff transparent;
+    z-index:9998;
+}
+.menu-item {
+    background: #fae0bb;
+    border: 8px solid #fffefe;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    margin: 0;
+    top: 2.8em;
+    width: 100%;
+    z-index: 99999;
+}*/
+
+/*#4aaaa5 2px solid #3a9a95*/
+/*2a8a85*/
+
+/* --------------------- Mobile and Tablet Device -------------------------------------  */
+@media only screen and (max-width : 767px) {
+    .main-menu-logo{
+        display: none;
+    }
+}
+
+/* --------------------- Medium and Large Device -------------------------------------  */
+@media only screen and (min-width : 768px) {
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        
+    }
+    .navbar-brand-custom{
+        display: none;
+    }
+}
