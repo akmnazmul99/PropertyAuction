@@ -16,17 +16,205 @@
         <link rel="stylesheet" href="resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="resources/css/bootstrap.min.css">
         <link rel="stylesheet" href="resources/css/header-component.css">
+        <link rel="stylesheet" href="resources/css/standard.css">
         <link rel="stylesheet" href="resources/css/style.css">
 
         <script src="resources/js/jquery-1.12.0.min.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
         <script src="resources/js/modernizr.custom.js"></script>
+        <script src="resources/js/standard.js"></script>
+        <script src="resources/js/ga.js"></script>
         <script src="resources/js/custom.js"></script>
     </head>
     <body>
+        <header class="globalHeader  header-rebranding"
+                id="globalHeader">
+            <div class="globalNav-wrapper">
+                <a href="index.html">
+                    <img id="rm-site-logo" src="resources/images/logo.png"
+                         class="globalHeader-logo globalHeader-logo--rebranded" alt="">
+                </a><nav class="globalNav">
+                    <ul class="globalNav-content">
+                        <li class="globalNav-item">
+                            <a class="globalNav-link" href="" data-analytics-label="">
+                                Menu 1
+                            </a>
+                            <div class="globalNav-subNav">
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 1</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 2</a>
+                                    </li>
+                                </ul>
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 3</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 4</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 5</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
 
-        <section id="header-section" ></section>
-        <section id="content-section" style="padding-top: 20px;">
+                        <li class="globalNav-item">
+                            <a class="globalNav-link" href="" data-analytics-label="rent">
+                                Menu 2
+                            </a>
+                            <div class="globalNav-subNav">
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 1</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="globalNav-item globalNav-item-findAgents">
+                            <a class="globalNav-link" href="" data-analytics-label="">
+                                Menu 3
+                            </a>
+                            <div class="globalNav-subNav">
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 1</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="globalNav-item">
+                            <a class="globalNav-link" href="" data-analytics-label="">
+                                Menu 4
+                            </a>
+                            <div class="globalNav-subNav">
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 1</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 2</a>
+                                    </li>
+                                </ul>
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 3</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="globalNav-item globalNav-item-commercial">
+                            <a class="globalNav-link" href="" data-analytics-label="commercial">
+                                Menu 5
+                            </a>
+                            <div class="globalNav-subNav">
+                                <ul class="globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 1</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="globalNav-item globalNav-item-overseas">
+                            <a class="globalNav-link" href="" data-analytics-label="">
+                                Menu 6
+                            </a>
+                            <div class="globalNav-subNav">
+                                <ul class="reverseBorder globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 1</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 2</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 3</a>
+                                    </li>
+                                </ul>
+                                <ul class="reverseBorder globalNav-subNav-col">
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 4</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 5</a>
+                                    </li>
+                                    <li class="globalNav-subNav-item">
+                                        <a class="globalNav-subNav-link" href=""
+                                           data-analytics-label="">Sub Menu 6</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="globalNav-item globalNav-item-signin">
+                            <a id="sign-in" class="globalNav-link globalNav-link--loggedOut"
+                               href="" rel="nofollow">
+                                <span class="globalNav-signin">Sign In &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                            </a>
+                        </li>
+                        <li class="globalNav-item globalNav-item-signin">
+                            <a id="sign-in" class="globalNav-link globalNav-link--loggedOut"
+                               href="" rel="nofollow">
+                                <span class="globalNav-signin">Register &nbsp;<i class="fa fa-briefcase" aria-hidden="true"></i></span>
+
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div class="globalHeader-burger">
+
+                </div>
+                <div class="globalHeader-signin">
+                    <img src="resources/images/signedout.png" class="icon-signedOut">
+                    <img src="resources/images/signedin.png" class="icon-signedIn">
+                </div>
+
+            </div>
+            <div class="globalNav-background"></div>
+            <div class="globalHeader-background"></div>
+        </header>
+        <section id="content-section" style="margin: 100px 0px">
             <div class="container">
                 <div class="row form-group">
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -45,14 +233,11 @@
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                         <div class="row">
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                                <button class="form-control button-custom-field">Click</button>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <button class="form-control common-custom-button">Click</button>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                                <button class="form-control cancel-button-custom-field">Cancel</button>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                                <button class="form-control warning-button-custom-field">Warning</button>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <button class="form-control large-button">Click</button>
                             </div>
                         </div>
                     </div>
@@ -119,7 +304,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                         <div class="dropdown">
-                            <button class="button-custom-field dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <button class="common-custom-button dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                 Dropdown
                                 <span class="caret"></span>
                             </button>
@@ -153,15 +338,25 @@
                             the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                60%
-                            </div>
+                        <div class="checkbox checkbox-danger form-group">
+                            <input id="checkbox6" type="checkbox" checked="">
+                            <label for="checkbox6">
+                                Check me out
+                            </label>
+                        </div>
+                        <div class="radio radio-info radio-inline">
+                            <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked="">
+                            <label for="inlineRadio1"> Male </label>
+                        </div>
+                        <div class="radio radio-info radio-inline">
+                            <input type="radio" id="inlineRadio2" value="option2" name="radioInline" checked="">
+                            <label for="inlineRadio2"> Female </label>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section id="footer-section" ></section>
     </body>
 </html>
