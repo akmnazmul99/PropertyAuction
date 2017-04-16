@@ -554,15 +554,7 @@ ol {
 body {
     min-width: 240px
 }
-hr {
-    background: 0;
-    border: 0;
-    clear: both;
-    display: block;
-    margin: 0;
-    padding: 13px 0;
-    padding: 1.3rem 0
-}
+
 .lt-ie8 hr {
     visibility: hidden
 }
@@ -727,30 +719,7 @@ select,
 textarea {
     color: #333
 }
-a,
-a:visited {
-    color: #004889;
-    text-decoration: none
-}
-a[href^="tel"] {
-    color: #333
-}
-a:hover,
-a:active,
-a:focus {
-    color: #004889;
-    text-decoration: underline;
-    outline: 0
-}
-a:hover .hover-fade,
-a:active .hover-fade,
-a:focus .hover-fade {
-    opacity: .8;
-    transition: opacity .3s ease
-}
-a .hover-fade {
-    transition: opacity .3s ease
-}
+
 .grey-link,
 .grey-link:hover,
 .grey-link:active,
@@ -1838,45 +1807,8 @@ input[type="submit"].btn::-moz-focus-inner {
     background-color: #851a4e;
     color: #fff
 }
-.text-field,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="range"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"],
-textarea {
-    border: 1px solid #bbb;
-    font-size: 13px;
-    font-size: 1.3rem;
-    font-weight: normal;
-    margin: 2px 0 5px 0;
-    margin: .2rem 0 .5rem 0;
-    padding: 5px 8px 6px;
-    padding: .5rem 8px .6rem;
-    text-shadow: 0 0 1px #d3d3d3;
-    color: #333;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box
-}
-input[type="text"],
-input[type="password"],
-input[type="tel"],
-input[type="email"],
-input[type="search"],
-textarea {
-    -webkit-appearance: none
-}
+
+
 body .clone,
 body .placeholder-shim {
     color: #999;
